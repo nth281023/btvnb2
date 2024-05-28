@@ -1,0 +1,48 @@
+body {
+    margin: 25px;
+    font-family: Arial, sans-serif;
+
+}
+
+div.polaroid {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 14rem;
+}
+
+div.container {
+    padding: 10px 20px;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.Trang_Chu {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+.Lien_He{
+    background: #38444d;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+}
+.Lien_He-item{
+    width: 30%;
+}
+.site-info{
+    padding: 20px 0;
+    line-height: 32px;
+    text-align: center;
+}

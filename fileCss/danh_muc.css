@@ -1,0 +1,21 @@
+.VHVN{
+    width: 800px;
+    /* text-align: center; */
+    margin: 0 auto;
+    margin-top: 70px;
+
+}
+.img-vhnn{
+    border-radius: 30px;
+}
+.text_VHNN{
+    display: flex;
+}
+.text_VHNN-so{
+    display: inline-block;
+    color: #fff;
+    background: #345361;
+    padding: 3px 12px;
+    margin-right: 16px;
+    border-radius: 30px;
+}
